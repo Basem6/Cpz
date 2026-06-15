@@ -1,0 +1,56 @@
+.material-symbols-outlined {
+font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+display: inline-block;
+vertical-align: middle;
+}
+.glass-panel {
+background: rgba(19, 19, 19, 0.6);
+backdrop-filter: blur(32px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.fire-glow {
+box-shadow: 0 0 40px rgba(255, 183, 125, 0.15);
+}
+.fire-glow-hover:hover {
+box-shadow: 0 0 60px rgba(255, 183, 125, 0.3);
+}
+.parallax-bg {
+transform-style: preserve-3d;
+will-change: transform;
+}
+.ingredient-particle {
+position: fixed;
+pointer-events: none;
+z-index: 10;
+opacity: 0.3;
+}
+.reveal-container {
+overflow: hidden;
+display: block;
+}
+.reveal-item {
+display: block;
+transform: translateY(100%);
+}
+.process-line-active {
+transition: width 1s cubic-bezier(0.65, 0, 0.35, 1);
+}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #131313; }
+::-webkit-scrollbar-thumb { background: #353534; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #ffb77d; }
+
+@media (prefers-reduced-motion: reduce) {
+* {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+}
+.overlay{
+  transform: scaleX(0);
+}
+.btn:hover .overlay{
+  transform: scaleX(1);
+}
