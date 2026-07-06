@@ -8,7 +8,6 @@ import TestimonialsSection from "./sections/TestimonialsSection";
 import ImageSlidesSection from "./sections/ImageSlidesSection";
 import GallerySection from "./sections/GallerySection";
 import { useScrollSmoother } from "./hooks/useScrollSmoother";
-import { useScrollToSection } from "./hooks/useScrollToSection";
 import { useImageSlidesAnimation } from "./hooks/useImageSlidesAnimation";
 import { useFinalAnimation } from "./hooks/useFinalAnimation";
 import { useHeroAnimation } from "./hooks/useHeroAnimation";
@@ -32,7 +31,6 @@ export default function App() {
   const para = useRef(null);
 
 
-  const scrollToSection = useScrollToSection(smootherRef);
 
   useHeroAnimation({heroRef , titlemenu , paramenu});
   useImageSlidesAnimation(sectionRef);
@@ -46,7 +44,7 @@ export default function App() {
       <div id="smooth-content">
         <div className="App relative">
           <div id="particle-container"></div>
-          <Navbar onSectionClick={scrollToSection} />
+          <Navbar/>
           <HeroSection heroRef={heroRef} />
           <MenuSection titlemenu={titlemenu} paramenu={paramenu} />
           <TestimonialsSection />
