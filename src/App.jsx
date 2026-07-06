@@ -1,7 +1,7 @@
 import "./App.css";
 import { useRef } from "react";
-import Navbar from "./components/Navbar";
-import MouseCursor from "./components/MouseCursor";
+import Navbar from "./Components/Navbar";
+import MouseCursor from "./Components/MouseCursor";
 import HeroSection from "./sections/HeroSection";
 import MenuSection from "./sections/MenuSection";
 import TestimonialsSection from "./sections/TestimonialsSection";
@@ -44,7 +44,7 @@ export default function App() {
       <div id="smooth-content">
         <div className="App relative">
           <div id="particle-container"></div>
-          <Navbar/>
+          <Navbar />
           <HeroSection heroRef={heroRef} />
           <MenuSection titlemenu={titlemenu} paramenu={paramenu} />
           <TestimonialsSection />
