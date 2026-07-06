@@ -17,8 +17,6 @@ A modern and responsive restaurant landing page built with **Next.js**, **TypeSc
 
 ## 🛠️ Technologies Used
 
-* Next.js
-* TypeScript
 * Tailwind CSS
 * React
 * Framer Motion / GSAP (if used)
