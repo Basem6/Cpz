@@ -1,4 +1,4 @@
-import TextMarquee from "../components/TextMarquee";
+import TextMarquee from "../Components/TextMarquee";
 export default function MarqueeSkill({ images}) {
   const repeated = images
     ? [...images, ...images, ...images].map((src, index) => (
