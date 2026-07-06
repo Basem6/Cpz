@@ -1,6 +1,6 @@
 # Restaurant Landing Page
 
-A modern and responsive restaurant landing page built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The website is designed to showcase the restaurant's brand, menu, special offers, and provide an engaging user experience across all devices.
+A modern and responsive restaurant landing page built with   **Tailwind CSS**. The website is designed to showcase the restaurant's brand, menu, special offers, and provide an engaging user experience across all devices.
 
 ## ✨ Features
 
@@ -36,7 +36,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Basem6/Cpz.git>
 ```
 
 Install dependencies:
