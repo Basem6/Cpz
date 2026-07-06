@@ -9,7 +9,7 @@ export default function HeroSection({ heroRef }) {
           </p>
         </div>
         <video width="100%" height="100%" autoPlay muted loop>
-          <source src="../public/viedos/pizze=a.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dhmk6ap4o/video/upload/v1783321052/pizze_a_jnrg6y.mp4" type="video/mp4" />
         </video>
       </div>
     </section>
